@@ -22,7 +22,7 @@ num-traits = { version = "0.2", default-features = false }
 default = [ "std" ]
 std = []
 parallel = [ "rayon", "std" ]
-print-trace = [ "std", "colored" ]
+print-trace = [ "std", "colored", "parallel" ]
 
 [profile.release]
 opt-level = 3
